@@ -1,0 +1,1 @@
+package edu.matc.MultiThreadingHalloween;import org.apache.log4j.Logger;/** Created 10/03/17 * *  @author nfenev */public class MyRunnable implements Runnable {    private final Logger logger = Logger.getLogger(this.getClass());    public final void run() {        logger.info("In edu.matc.MultiThreadingHalloween.MyThread");    }}

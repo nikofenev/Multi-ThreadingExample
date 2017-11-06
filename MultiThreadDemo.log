@@ -1,0 +1,113 @@
+2017-11-05 21:17:56,401 0    [main] INFO  edu.matc.MultiThreadingHalloween.RileyActions  - Starting a new RileyActions instance
+2017-11-05 21:17:56,404 3    [main] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Created a Halloween, there are 10 positions in Riley's line
+2017-11-05 21:17:56,405 4    [main] INFO  edu.matc.MultiThreadingHalloween.Riley  - Created Riley instance
+2017-11-05 21:17:56,406 5    [main] INFO  edu.matc.MultiThreadingHalloween.RileyActions  - This class instance (RileyActions) started a kid generator thread
+2017-11-05 21:17:56,406 5    [Thread-1] INFO  edu.matc.MultiThreadingHalloween.KidGenerator  - Starting KidGenerator thread
+2017-11-05 21:17:56,406 5    [Thread-1] INFO  edu.matc.MultiThreadingHalloween.KidGenerator  - Generating kids
+2017-11-05 21:17:56,406 5    [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Riley  - Starting a Riley thread
+2017-11-05 21:17:56,406 5    [main] INFO  edu.matc.MultiThreadingHalloween.RileyActions  - This class instance (RileyActions) started a Riley thread
+2017-11-05 21:17:56,407 6    [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - Created a new kid
+2017-11-05 21:17:56,408 7    [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A time has been set for a kid
+2017-11-05 21:17:56,408 7    [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A name has been set for a kid
+2017-11-05 21:17:56,417 16   [Thread-2] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 13 walking to next house at Sun Nov 05 21:17:56 CST 2017
+2017-11-05 21:17:56,417 16   [Thread-2] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 13 got the candy
+2017-11-05 21:17:59,409 3008 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Riley  - Riley thread started
+2017-11-05 21:17:59,409 3008 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Riley  - Giving candy...
+2017-11-05 21:17:59,409 3008 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley waiting for lock
+2017-11-05 21:17:59,409 3008 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley found a kid in line
+2017-11-05 21:17:59,410 3009 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley giving Kid Thread 13 some candy
+2017-11-05 21:18:02,415 6014 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley completed giving candy to kid: Kid Thread 13 in 3 seconds
+2017-11-05 21:18:02,415 6014 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Riley  - Giving candy...
+2017-11-05 21:18:02,415 6014 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley waiting for lock
+2017-11-05 21:18:02,415 6014 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley is waiting for kid to show up
+2017-11-05 21:18:03,418 7017 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.KidGenerator  - Generating kids
+2017-11-05 21:18:03,418 7017 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - Created a new kid
+2017-11-05 21:18:03,419 7018 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A time has been set for a kid
+2017-11-05 21:18:03,419 7018 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A name has been set for a kid
+2017-11-05 21:18:03,419 7018 [Thread-3] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 14 walking to next house at Sun Nov 05 21:18:03 CST 2017
+2017-11-05 21:18:03,420 7019 [Thread-3] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 14 got the candy
+2017-11-05 21:18:03,420 7019 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley found a kid in line
+2017-11-05 21:18:03,420 7019 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley giving Kid Thread 14 some candy
+2017-11-05 21:18:06,424 10023 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.KidGenerator  - Generating kids
+2017-11-05 21:18:06,424 10023 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - Created a new kid
+2017-11-05 21:18:06,424 10023 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A time has been set for a kid
+2017-11-05 21:18:06,424 10023 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley completed giving candy to kid: Kid Thread 14 in 3 seconds
+2017-11-05 21:18:06,425 10024 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A name has been set for a kid
+2017-11-05 21:18:06,425 10024 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Riley  - Giving candy...
+2017-11-05 21:18:06,425 10024 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley waiting for lock
+2017-11-05 21:18:06,425 10024 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley is waiting for kid to show up
+2017-11-05 21:18:06,426 10025 [Thread-4] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 15 walking to next house at Sun Nov 05 21:18:06 CST 2017
+2017-11-05 21:18:06,426 10025 [Thread-4] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 15 got the candy
+2017-11-05 21:18:06,426 10025 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley found a kid in line
+2017-11-05 21:18:06,426 10025 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley giving Kid Thread 15 some candy
+2017-11-05 21:19:52,720 0    [main] INFO  edu.matc.MultiThreadingHalloween.RileyActions  - Starting a new RileyActions instance
+2017-11-05 21:19:52,723 3    [main] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Created a Halloween, there are 10 positions in Riley's line
+2017-11-05 21:19:52,725 5    [main] INFO  edu.matc.MultiThreadingHalloween.Riley  - Created Riley instance
+2017-11-05 21:19:52,726 6    [main] INFO  edu.matc.MultiThreadingHalloween.RileyActions  - This class instance (RileyActions) started a kid generator thread
+2017-11-05 21:19:52,726 6    [Thread-1] INFO  edu.matc.MultiThreadingHalloween.KidGenerator  - Starting KidGenerator thread
+2017-11-05 21:19:52,726 6    [Thread-1] INFO  edu.matc.MultiThreadingHalloween.KidGenerator  - Generating kids
+2017-11-05 21:19:52,726 6    [main] INFO  edu.matc.MultiThreadingHalloween.RileyActions  - This class instance (RileyActions) started a Riley thread
+2017-11-05 21:19:52,726 6    [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Riley  - Starting a Riley thread
+2017-11-05 21:19:52,727 7    [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - Created a new kid
+2017-11-05 21:19:52,727 7    [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A time has been set for a kid
+2017-11-05 21:19:52,727 7    [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A name has been set for a kid
+2017-11-05 21:19:52,731 11   [Thread-2] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 13 walking to next house at Sun Nov 05 21:19:52 CST 2017
+2017-11-05 21:19:52,732 12   [Thread-2] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 13 got the candy
+2017-11-05 21:19:55,729 3009 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Riley  - Riley thread started
+2017-11-05 21:19:55,729 3009 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Riley  - Giving candy...
+2017-11-05 21:19:55,730 3010 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley waiting for lock
+2017-11-05 21:19:55,730 3010 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley found a kid in line
+2017-11-05 21:19:55,730 3010 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley giving Kid Thread 13 some candy
+2017-11-05 21:19:58,732 6012 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley completed giving candy to kid: Kid Thread 13 in 3 seconds
+2017-11-05 21:19:58,733 6013 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Riley  - Giving candy...
+2017-11-05 21:19:58,733 6013 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley waiting for lock
+2017-11-05 21:19:58,733 6013 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley is waiting for kid to show up
+2017-11-05 21:20:01,732 9012 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.KidGenerator  - Generating kids
+2017-11-05 21:20:01,733 9013 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - Created a new kid
+2017-11-05 21:20:01,733 9013 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A time has been set for a kid
+2017-11-05 21:20:01,733 9013 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A name has been set for a kid
+2017-11-05 21:20:01,734 9014 [Thread-3] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 14 walking to next house at Sun Nov 05 21:20:01 CST 2017
+2017-11-05 21:20:01,734 9014 [Thread-3] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 14 got the candy
+2017-11-05 21:20:01,734 9014 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley found a kid in line
+2017-11-05 21:20:01,735 9015 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley giving Kid Thread 14 some candy
+2017-11-05 21:21:05,864 0    [main] INFO  edu.matc.MultiThreadingHalloween.RileyActions  - Starting a new RileyActions instance
+2017-11-05 21:21:05,867 3    [main] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Created a Halloween, there are 10 positions in Riley's line
+2017-11-05 21:21:05,868 4    [main] INFO  edu.matc.MultiThreadingHalloween.Riley  - Created Riley instance
+2017-11-05 21:21:05,869 5    [main] INFO  edu.matc.MultiThreadingHalloween.RileyActions  - This class instance (RileyActions) started a kid generator thread
+2017-11-05 21:21:05,869 5    [Thread-1] INFO  edu.matc.MultiThreadingHalloween.KidGenerator  - Starting KidGenerator thread
+2017-11-05 21:21:05,869 5    [Thread-1] INFO  edu.matc.MultiThreadingHalloween.KidGenerator  - Generating kids
+2017-11-05 21:21:05,869 5    [main] INFO  edu.matc.MultiThreadingHalloween.RileyActions  - This class instance (RileyActions) started a Riley thread
+2017-11-05 21:21:05,869 5    [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Riley  - Starting a Riley thread
+2017-11-05 21:21:05,870 6    [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - Created a new kid
+2017-11-05 21:21:05,870 6    [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A time has been set for a kid
+2017-11-05 21:21:05,870 6    [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A name has been set for a kid
+2017-11-05 21:21:05,874 10   [Thread-2] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 13 walking to next house at Sun Nov 05 21:21:05 CST 2017
+2017-11-05 21:21:05,874 10   [Thread-2] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 13 got the candy
+2017-11-05 21:21:07,875 2011 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.KidGenerator  - Generating kids
+2017-11-05 21:21:07,876 2012 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - Created a new kid
+2017-11-05 21:21:07,876 2012 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A time has been set for a kid
+2017-11-05 21:21:07,876 2012 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A name has been set for a kid
+2017-11-05 21:21:07,876 2012 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.KidGenerator  - Generating kids
+2017-11-05 21:21:07,876 2012 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - Created a new kid
+2017-11-05 21:21:07,876 2012 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A time has been set for a kid
+2017-11-05 21:21:07,876 2012 [Thread-3] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 14 walking to next house at Sun Nov 05 21:21:07 CST 2017
+2017-11-05 21:21:07,876 2012 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A name has been set for a kid
+2017-11-05 21:21:07,877 2013 [Thread-3] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 14 got the candy
+2017-11-05 21:21:07,877 2013 [Thread-4] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 15 walking to next house at Sun Nov 05 21:21:07 CST 2017
+2017-11-05 21:21:07,877 2013 [Thread-4] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 15 got the candy
+2017-11-05 21:21:08,870 3006 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Riley  - Riley thread started
+2017-11-05 21:21:08,870 3006 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Riley  - Giving candy...
+2017-11-05 21:21:08,870 3006 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley waiting for lock
+2017-11-05 21:21:08,870 3006 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley found a kid in line
+2017-11-05 21:21:08,871 3007 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley giving Kid Thread 13 some candy
+2017-11-05 21:21:11,873 6009 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley completed giving candy to kid: Kid Thread 13 in 3 seconds
+2017-11-05 21:21:11,876 6012 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Riley  - Giving candy...
+2017-11-05 21:21:11,876 6012 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley waiting for lock
+2017-11-05 21:21:11,877 6013 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley found a kid in line
+2017-11-05 21:21:11,877 6013 [Thread-0] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Riley giving Kid Thread 14 some candy
+2017-11-05 21:21:11,881 6017 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.KidGenerator  - Generating kids
+2017-11-05 21:21:11,881 6017 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - Created a new kid
+2017-11-05 21:21:11,881 6017 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A time has been set for a kid
+2017-11-05 21:21:11,881 6017 [Thread-1] INFO  edu.matc.MultiThreadingHalloween.Kid  - A name has been set for a kid
+2017-11-05 21:21:11,882 6018 [Thread-5] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 16 walking to next house at Sun Nov 05 21:21:11 CST 2017
+2017-11-05 21:21:11,882 6018 [Thread-5] INFO  edu.matc.MultiThreadingHalloween.Halloween  - Kid: Kid Thread 16 got the candy

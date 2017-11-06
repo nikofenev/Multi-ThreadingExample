@@ -1,0 +1,1 @@
+package edu.matc.MultiThreadingHalloween;/** Created 10/03/17 * *  @author nfenev */public final class RileyStartApp {    private RileyStartApp() {    }    public static void main(String[] args) {        RileyActions rileyActions = new RileyActions();        rileyActions.allThreads();    }}
